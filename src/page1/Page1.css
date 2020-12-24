@@ -1,0 +1,91 @@
+.Page1{
+    /* position: relative; */
+    background: url('./kitchen.png')  0px 0px/cover  no-repeat;
+    /* background-color: black;
+    box-shadow: 0 0 10px #000; */
+}
+/* бетон 1 */
+.leftPanel {
+    background: url('./beton.png'); 
+    /* background-color: rgb(48, 21, 202); */
+    /* бетон 1 */
+    /* width: 648px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    mix-blend-mode: soft-light; */
+}
+.rightPanel {
+    background-color: rgb(48, 21, 202);
+}
+
+
+.Logo{
+    position: absolute;
+    height: 58px;
+    width: 58px;
+    left: 103px;
+    top: 55px;
+    border-radius: 0px;
+}
+
+.menu {
+        /* position: absolute; */
+        justify-content: center;
+        text-align: center;
+        margin: 1em;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #FFFFFF; 
+}
+
+.menu:hover{
+    color:white;
+}
+.phones {
+    /* 8(800) 000-00-00 */
+        /* position: absolute; */
+        width: 165px;
+        height: 22px;
+        left: 1652px;
+        top: 73px;
+        /* identical to box height */
+}
+
+.call {
+    /* Заказать звонок */
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+
+.call:hover{
+    color: white;
+} 
+
+.menu about {
+/* О нас */
+/*position: absolute;*/
+/*width: 48px;
+height: 20px;*/
+line-height: 20px;
+/* identical to box height */
+}
+
+/* Отступ сверху до элемента карточек */
+.cardMe0 {
+    border-width: 2px;
+    height: 15em;
+    margin-top: 0.6vh;
+}
+
+.cardMe {
+    color:white;
+    margin: 0px;
+}
+
+
+
+
+
